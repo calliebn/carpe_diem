@@ -198,19 +198,28 @@ select {
 }
 
 @media screen and (max-width: 480px) {
+    body {
+    overflow: scroll;
+    }
+
     img {
         width: 50%;
     }
 
-    .box {
-        z-index: 100;
+    form input {
+        margin-bottom: 10px;
     }
 
-    .ocean {
+    .box {
+        z-index: 100;
+        width: 80%;
+    }
+
+   .ocean {
         visibility: hidden;
     }
 
     .waves {
         visibility: hidden;
-    }
+    } 
 }
