@@ -215,11 +215,17 @@ select {
         width: 80%;
     }
 
-   .ocean {
+    .tile.is-child {
+        margin: 0 auto !important;
+        z-index: 100;
+        position: relative
+    }
+
+   /* .ocean {
         visibility: hidden;
     }
 
     .waves {
         visibility: hidden;
-    } 
+    } */
 }
